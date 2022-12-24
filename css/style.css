@@ -1,0 +1,97 @@
+
+.menu{
+display: flex;
+justify-content: center;
+font-size: 1.5rem;
+background-color: #16232E;
+padding: 0;
+}
+.menu-nav{
+gap: 2rem;
+
+}
+.menu-nav2{
+padding: 0;
+
+}
+.nav-link {
+    color: white;
+}
+.navbar-div{
+padding: 0;
+background-color: #16232E;
+}
+
+/* ESTILOS CAROUSEL */
+.carousel {
+    padding: 1.5rem 10rem;
+    margin-top: 1.5rem;
+    background-color: #164C45;
+    
+
+}
+/* ESTILOS CARDS */
+.card__container {
+display: flex;
+gap: 2.5rem;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 1rem;
+margin-top: 2rem;
+flex-wrap: wrap;
+background-color: #CC8D1A;
+}
+    /* FOOTER */
+.footer {
+display: flex;
+justify-content: space-around;
+margin-top: 5rem;
+align-items: center;
+padding: 1.5rem ;
+background-color: #E3C75F
+}
+
+.menu-footer li {
+font-size: 1.2rem;
+padding: 0 5rem;
+
+}
+
+.redes{
+display: flex;
+gap: 1rem;
+flex-direction: row;
+
+
+}
+
+.redes a{
+ font-size: 1.5rem;
+
+}
+
+.instagram{
+color: rgb(228, 64, 95);
+}
+
+.whatsapp{
+color: green    ;
+}
+
+@media (max-width: 480px) {
+
+.carousel{
+    display: none;
+}
+.footer{
+flex-wrap: wrap;
+gap: 2rem;
+
+}
+.iframe{
+width: 300px;
+}
+
+
+}
+
